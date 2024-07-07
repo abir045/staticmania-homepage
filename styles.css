@@ -163,7 +163,7 @@ nav {
 
 .info-text {
   color: rgb(27, 57, 54);
-  font-family: Switzer;
+  font-family: "Switzer", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -611,4 +611,20 @@ nav {
   font-weight: 400;
   line-height: 23.76px;
   text-align: left;
+}
+
+.dense {
+  font-family: "Switzer", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.68px;
+  text-align: left;
+}
+
+.dense-info {
+  display: flex;
+  align-items: center;
+}
+
+.living {
 }
