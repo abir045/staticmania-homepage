@@ -153,6 +153,16 @@ li a {
 
 nav {
   margin-bottom: 50px;
+  margin:10px 100px
+}
+
+.nav-links{
+  font-family: "Switzer",sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 23.76px;
+text-align: center;
+
 }
 
 .info-container {
