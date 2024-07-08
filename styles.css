@@ -6,6 +6,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 ul > li {
@@ -29,7 +30,7 @@ li a {
 
 .section {
   background-color: #1b3936;
-  height: 1050px;
+  max-height: 1050px;
 }
 
 .logo {
@@ -43,6 +44,8 @@ li a {
 
 .relative {
   /* position: relative; */
+  position: relative;
+  overflow: hidden;
 }
 
 .lake {
@@ -59,7 +62,7 @@ li a {
 }
 .border {
   position: absolute;
-  top: 55%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 99;
@@ -71,7 +74,7 @@ li a {
 
 .hero-banner {
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 17%;
 }
 
@@ -88,12 +91,15 @@ li a {
 
 .big-text {
   /* font-family: "Boska", serif; */
+  /* position: absolute; */
+  /* top: 5%; */
+  /* left: 25%; */
 }
 
 .cosy {
   font-size: 262px;
   position: absolute;
-  top: 22%;
+  top: 5%;
   left: 25%;
   color: white;
   line-height: 161.76px;
@@ -108,16 +114,16 @@ li a {
   color: white;
   line-height: 41.6px;
   font-family: "Boska", serif;
-  top: 75%;
-  left: 50%;
+  top: 55%;
+  left: 50%; */
 }
 
 .cabin {
   color: #75ff69;
   font-style: italic;
   position: absolute;
-  top: 55%;
-  left: 37%;
+  top: 30%;
+  left: 35%;
   line-height: 185.55px;
   font-family: "Boska", serif;
   font-size: 262px;
@@ -125,7 +131,7 @@ li a {
 
 .woods {
   position: absolute;
-  top: 70%;
+  top: 45%;
   left: 30%;
   font-family: "Boska", serif;
   font-size: 262px;
@@ -135,9 +141,14 @@ li a {
 .hero-para {
   color: white;
   width: 30%;
-  position: absolute;
-  bottom: -5%;
-  left: 35%;
+  /* margin-top: 15%; */
+  margin-bottom: 50px;
+  margin-left: 35%;
+  /* position: absolute; */
+  /* bottom: -5%; */
+  /* left: 35%; */
+  top: 5%;
+  padding-bottom: 50px;
 }
 
 nav {
@@ -147,6 +158,7 @@ nav {
 .info-container {
   display: flex;
   padding: 20px 250px;
+  /* z-index: 99; */
 }
 
 .left-container {
